@@ -16,16 +16,6 @@ To Execute (on Eustis):
         ./vm elf.txt
 where:
     <input_file.txt> is the path to the PL/0 source program
-
-Notes:
-    - lex.c accepts ONE command-line argument (input PL/0 source file)
-    - parsercodegen_complete.c accepts NO command-line arguments
-    - Input filename is hard-coded in parsercodegen.c
-    - Implements recursive-descent parser for PL/0 grammar
-    - Supports procedures, call statements, and if-then-else
-    - Generates PM/0 assembly code (see Appendix A for ISA)
-    - VM must support EVEN instruction (OPR 0 11)
-    - All development and testing performed on Eustis
 */
 
 #include <stdio.h>
