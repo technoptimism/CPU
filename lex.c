@@ -1,6 +1,4 @@
 /*
-Assignment: HW4 - Complete Parser and Code Generator for PL/0 (with Procedures, Call, and Else)
-
 Author(s): Yevgeniy Ignatov
 
 Language: C (only)
