@@ -1,8 +1,6 @@
 /*
 Author(s): Yevgeniy Ignatov
 
-Language: C (only)
-
 To Compile:
 
     Scanner:
@@ -28,10 +26,6 @@ Notes:
     - Generates PM/0 assembly code (see Appendix A for ISA)
     - VM must support EVEN instruction (OPR 0 11)
     - All development and testing performed on Eustis
-
-Class: COP3402 - System Software - Fall 2025
-Instructor: Dr. Jie Lin
-Due Date: Friday, November 21, 2025 at 11:59 PM ET
 */
 
 #include <stdio.h>
